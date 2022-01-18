@@ -1,0 +1,177 @@
+#buttonId {
+  display: block;
+  color: white;
+  background-color: black;
+  margin: 20px;
+  outline: 2px solid red;
+  border: 2px solid green;
+}
+div,
+p {
+  border: 2px solid red;
+  outline: 2px solid orange;
+  font-size: 20px;
+  padding: 5px;
+  background-color: gainsboro;
+}
+
+.centre-para {
+  width: max-content;
+  margin: 5px auto;
+}
+
+.long-para {
+  width: 100%;
+  min-height: 10px;
+  max-height: 200px;
+}
+
+body {
+  margin: 20px;
+}
+
+.box-div {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+}
+.border-div {
+  /* border-radius: 10px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+
+  outline: none;
+}
+
+.border-shadow-right {
+  box-shadow: 5px 5px 10px 1px gray;
+  /* x-shadow width, y-shadow, blur effect, spread  */
+  outline: none;
+}
+.border-shadow-left {
+  box-shadow: -5px 5px 10px 1px gray;
+  /* x-shadow width, y-shadow, blur effect, spread  */
+  outline: none;
+}
+.border-shadow-multi {
+  box-shadow: 3px 3px 10px 1px red, 6px 6px 10px 1px orange;
+  outline: none;
+}
+.border-shadow-inner {
+  box-shadow: 5px 5px 10px 1px orange inset;
+  outline: none;
+}
+
+.relative-div {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  left: 50px;
+  position: relative;
+  text-align: center;
+}
+
+span {
+  top: 45%;
+  position: relative;
+  display: block;
+}
+
+.absolute-div {
+  position: absolute;
+  top: 50px;
+}
+
+.absolute-parent {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.sticky-div {
+  position: sticky;
+  top: 0px;
+  height: 100px;
+  text-align: center;
+  z-index: 1;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: 1px solid burlywood;
+  border-radius: 2px;
+  border: 1px solid orange;
+}
+
+form {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#login-button {
+  padding: 5px;
+  width: 80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.triangleUp {
+  width: 0;
+  height: 0;
+  padding: 0;
+  outline: none;
+  border-top: 0px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  background-color: transparent;
+}
+
+.triangleDown {
+  width: 0;
+  height: 0;
+  padding: 0;
+  outline: none;
+  border-bottom: 0px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid green;
+  background-color: transparent;
+}
+
+.triangleRight {
+  width: 0;
+  height: 0;
+  padding: 0;
+  outline: none;
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-right: 0px solid transparent;
+  border-left: 100px solid yellow;
+  background-color: transparent;
+}
+
+.triangleLeft {
+  width: 0;
+  height: 0;
+  padding: 0;
+  outline: none;
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 100px solid blue;
+  background-color: transparent;
+}
